@@ -6,12 +6,11 @@
 
 body,
 html {
-    width: 100vw;
     height: 100vh;
 }
 
 body {
-    background-image: url(../img/ofGBM3Q9QVDLg8WUnoSMSN.jpg);
+    background-image: url(../img/armory.jpg);
     margin: 0px !important;
 }
 
@@ -41,7 +40,7 @@ h2 {
 
 }
 
-.white {
+.white > p {
     color: white;
 }
 .logo {
@@ -55,6 +54,7 @@ h2 {
     background-color: #040406a8;
     padding: 1em;
     align-items: center;
+    color: white;
 }
 
 .r3 {
@@ -72,37 +72,11 @@ h2 {
     grid-column-gap: 1em;
 }
 
-.c1 {
-    min-width: 200px;
-}
-
-.c1,
-.c3 {
-    background-color: #A3BCB6;
-}
-
 .txt-center {
     text-align: center;
     margin: 15px auto 0px;
     border-bottom: 1px solid #39603D;
     padding-bottom: 15px;
-}
-
-.left-nav {
-    list-style-type: none;
-}
-
-.left-nav>li>a {
-    display: block;
-    padding: 15px 0px 15px 30px;
-    background-color: #A3BCB6;
-    font-weight: bold;
-    text-decoration: none;
-    transition-duration: 0.7s;
-}
-
-.left-nav>li>a:hover {
-    background-color: lightsteelblue;
 }
 
 .c2 {
@@ -113,12 +87,6 @@ h2 {
     grid-column: 1 / 5;
     height: 22px;
     width: 100%;
-}
-
-.c2>img {
-    width: 100%;
-    align-self: center;
-    max-height: 130px;
 }
 
 .contact-form {
@@ -133,6 +101,7 @@ h2 {
     padding: 15px;
     margin: 5px;
     background-color: black;
+    color: white;
 }
 
 .submit-button {
@@ -149,4 +118,11 @@ h2 {
     padding: 7px;
     margin-top: 5px;
     display: none;
+}
+
+
+
+.login-form {
+    padding: 25px;
+    background-color: #FFF;
 }
